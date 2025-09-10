@@ -60,6 +60,7 @@ void deleteTask(taskInfo* wrk){
             destroy( wrk );
             return;
         }
+        tsk = tsk->Next;
     }while(tsk);
 }
 
